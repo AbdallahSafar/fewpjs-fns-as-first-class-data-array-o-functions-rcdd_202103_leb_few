@@ -18,3 +18,17 @@ function walkToPark(dogName,dogBreed)
   console.log(str);
   return str;
 }
+
+function throwFrisbee(dogName,dogBreed)
+{
+  const str = `Throw the frisbee for ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
+}
+
+function walkHome(dogName,dogBreed)
+{
+  const str = `Walk home with ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
+}

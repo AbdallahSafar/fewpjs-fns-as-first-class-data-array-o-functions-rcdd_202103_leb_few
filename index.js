@@ -11,3 +11,10 @@ function leashDog(dogName,dogBreed)
   console.log(str);
   return str;
 }
+
+function walkToPark(dogName,dogBreed)
+{
+  const str = `Walk to the park with ${dogName} the ${dogBreed}`;
+  console.log(str);
+  return str;
+}
